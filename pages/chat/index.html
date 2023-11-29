@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .chatScreen {
+            height: 50vh;
+            border: 16px;
+            margin: 0 auto;
+            width: 60%;
+            background: rgba(0, 0, 255, 0.109);
+            position: relative;
+        }
+        
+        .chatScreen .footer-inputs {
+            width: 100%;
+            padding: 10px 15px;
+            background-color: white;
+            position: absolute;
+            bottom: 0;
+        }
+
+        p.left {
+            
+            text-align: left;
+            background: rgba(128, 128, 128, 0.168);
+            padding: 5px 10px;
+        }
+        
+        p.right {
+            
+            background: rgba(128, 128, 128, 0.168);
+            text-align: right;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Chat App</h1>
+    <div class="chatScreen">
+        <div id="message-holder">
+
+        </div>
+        <div class="footer-inputs">
+            <input type="text" placeholder="message...." id="msgInput" />
+            <button id="sendBtn">SEND</button>
+        </div>
+    </div>
+
+    <script type="module" src="../../scripts/chat.js"></script>
+</body>
+
+</html>
