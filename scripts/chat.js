@@ -61,11 +61,11 @@ var person = {
 // console.log("name" , name);
 // console.log("rest" , rest);
 
-// var person1 = ["raja", "razzzak" , 25 ,"000000000000"]
-// // var [name, fname , age , ph] = person1
-// var [name, ...rest] = person1
+var person1 = ["raja", "razzzak" , 25 ,"000000000000"]
+// var [name, fname , age , ph] = person1
+var [name, ...rest] = person1
 
-// console.log('datra' , name, rest);
+console.log('datra' , name, rest);
 
 
 
